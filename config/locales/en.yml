@@ -20,4 +20,16 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  login:
+    invalid: "Invalid email/password combination"
+
+  menu:
+    users: "Users"
+    app: "sample app"
+    home: "Home"
+    help: "Help"
+    profile: "Profile"
+    setting: "Settings"
+    logout: "Log out"
+    login: "Log in"
+    signup: "Sign up now!"
