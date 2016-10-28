@@ -33,3 +33,9 @@ en:
     logout: "Log out"
     login: "Log in"
     signup: "Sign up now!"
+
+ message:
+    sign_up: "Sign up"
+    remember: "Remember me on this computer"
+
+
