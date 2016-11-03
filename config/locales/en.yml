@@ -4,11 +4,11 @@
 #
 # To use the locales, use `I18n.t`:
 #
-#     I18n.t 'hello'
+#     I18n.t "hello"
 #
 # In views, this is aliased to just `t`:
 #
-#     <%= t('hello') %>
+#     <%= t("hello") %>
 #
 # To use a different locale, set it with `I18n.locale`:
 #
@@ -22,10 +22,9 @@
 en:
   login:
     invalid: "Invalid email/password combination"
-
   menu:
     users: "Users"
-    app: "sample app"
+    app: "Sample app"
     home: "Home"
     help: "Help"
     profile: "Profile"
@@ -37,3 +36,30 @@ en:
     sign_up: "Sign up"
     remember: "Remember me on this computer"
     delete: "Delete"
+    active_email: "Please check your email to activate your account."
+<<<<<<< HEAD
+=======
+    confirm: "You sure?"
+    update_profile: "Update your profile"
+    save: "Save changes"
+    all_user: "All users"
+  title:
+    edit_user: "Edit user"
+>>>>>>> account-activation
+  user_mailer:
+    account_activation: "Account activation"
+    password_reset: "Hi"
+    activate: "Activate"
+    welcome_message: "Welcome to the Sample App! Click on the link below to activate your account:"
+  flash:
+    success: "Account activated!"
+    danger: "Invalid activation link"
+    warning: "Account not activated. Check your email for the activation link."
+    danger: "Invalid email/password combination"
+<<<<<<< HEAD
+=======
+    success_updated: "Profile updated"
+    success_deleted: = "User deleted"
+    danger_login: "Please log in."
+
+>>>>>>> account-activation

@@ -1,0 +1,10 @@
+<h1>t("en.menu.app")</h1>
+
+<p>t("en.user_mailer.password_reset") <%= @user.name %>,</p>
+
+<p>
+t("en.user_mailer.welcome_message")
+</p>
+
+<%= link_to t("en.user_mailer.activate"), edit_account_activation_url(@user.activation_token,
+                                                    email: @user.email) %>
