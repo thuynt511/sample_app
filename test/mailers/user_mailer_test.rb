@@ -14,9 +14,11 @@ class UserMailerTest < ActionMailer::TestCase
   end
 
   test "password_reset" do
-    mail = UserMailer.password_reset
+    user = users(:michael)
+    user.reset_token = User.new_token
+    mail = UserMailer.password_reset(user)
     assert_equal I18n.t("user_mailer.password_reset"), mail.subject
-    assert_equal ["to@example.org"], mail.to
+    assert_equal ["michael@example.com"], mail.to
     assert_equal ["noreply@example.com"], mail.from
     assert_match I18n.t("user_mailer.password_reset"), mail.body.encoded
   end

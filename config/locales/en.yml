@@ -32,20 +32,24 @@ en:
     logout: "Log out"
     login: "Log in"
     signup: "Sign up now!"
+    forgot_password: "(forgot password)"
   message:
     sign_up: "Sign up"
     remember: "Remember me on this computer"
     delete: "Delete"
     active_email: "Please check your email to activate your account."
-<<<<<<< HEAD
-=======
     confirm: "You sure?"
     update_profile: "Update your profile"
     save: "Save changes"
     all_user: "All users"
+    password_reset: "To reset your password click the link below:"
+    link_expire: "This link will expire in two hours."
+    ignore: "If you did not request your password to be reset, please ignore this email and
+      your password will stay as it is."
+    update_password: "Update password"
   title:
     edit_user: "Edit user"
->>>>>>> account-activation
+    password_reset: "Password reset"
   user_mailer:
     account_activation: "Account activation"
     password_reset: "Hi"
@@ -56,10 +60,13 @@ en:
     danger: "Invalid activation link"
     warning: "Account not activated. Check your email for the activation link."
     danger: "Invalid email/password combination"
-<<<<<<< HEAD
-=======
     success_updated: "Profile updated"
     success_deleted: = "User deleted"
     danger_login: "Please log in."
+    info_reset_password: "Email sent with password reset instructions"
+    danger_reset_password: "Email address not found"
+    update_password: "Password has been reset."
+    danger_expired: "Password reset has expired."
+  errors:
+    password: "can't be empty"
 
->>>>>>> account-activation
