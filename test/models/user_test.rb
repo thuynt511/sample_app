@@ -57,11 +57,7 @@ class UserTest < ActiveSupport::TestCase
   end
 
   test "authenticated? should return false for a user with nil digest" do
-<<<<<<< HEAD
-    assert_not @user.authenticated?(:remember, '')
-=======
     assert_not @user.authenticated?(:remember, "")
->>>>>>> account-activation
   end
 
 end

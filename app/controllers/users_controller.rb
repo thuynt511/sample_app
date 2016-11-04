@@ -20,11 +20,7 @@ class UsersController < ApplicationController
     @user = User.new user_params
     if @user.save
       UserMailer.account_activation(@user).deliver_now
-<<<<<<< HEAD
-      flash[:info] = t("en.message.active_email")
-=======
       flash[:info] = t("message.active_email")
->>>>>>> account-activation
       redirect_to root_url
     else
       render :new
@@ -71,13 +67,8 @@ class UsersController < ApplicationController
     redirect_to root_url  unless current_user.is_user? @user
   end
 
-<<<<<<< HEAD
-    def admin_user
-      redirect_to(root_url) unless current_user && current_user.admin?
-    end
-=======
   def admin_user
     redirect_to(root_url) unless current_user && current_user.admin?
   end
->>>>>>> account-activation
+
 end
