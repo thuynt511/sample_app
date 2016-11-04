@@ -33,7 +33,10 @@ en:
     login: "Log in"
     signup: "Sign up now!"
     forgot_password: "(forgot password)"
+    view_profile: "view my profile"
+    post: "Post"
   message:
+    welcome: "Welcome to the Sample App"
     sign_up: "Sign up"
     remember: "Remember me on this computer"
     delete: "Delete"
@@ -47,9 +50,14 @@ en:
     ignore: "If you did not request your password to be reset, please ignore this email and
       your password will stay as it is."
     update_password: "Update password"
+    micropost: "Microposts"
+    micropost_created: "Micropost created!"
+    home_link: "This is the home page for the %{link} sample application."
+    compose: "Compose new micropost..."
   title:
     edit_user: "Edit user"
     password_reset: "Password reset"
+    feed: "Micropost Feed"
   user_mailer:
     account_activation: "Account activation"
     password_reset: "Hi"
@@ -67,6 +75,8 @@ en:
     danger_reset_password: "Email address not found"
     update_password: "Password has been reset."
     danger_expired: "Password reset has expired."
+    micropost_deleted: "Micropost deleted"
   errors:
     password: "can't be empty"
+    less_than: "should be less than 5MB"
 
