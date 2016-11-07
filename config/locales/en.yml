@@ -58,6 +58,10 @@ en:
     edit_user: "Edit user"
     password_reset: "Password reset"
     feed: "Micropost Feed"
+    following: "Following"
+    followers: "Followers"
+    unfollow: "Unfollow"
+    follow: Follow
   user_mailer:
     account_activation: "Account activation"
     password_reset: "Hi"
